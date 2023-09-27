@@ -1,0 +1,24 @@
+@model List<AgroBro.Models.Noticias>
+<div class="container-fluid" style="margin-top: 30px;">
+    @foreach (var item in Model)
+    {
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+            <div class="toast-header">
+                <div class="d-flex flex-row user-info"><img class="rounded-circle" src="https://previews.123rf.com/images/rastudio/rastudio1708/rastudio170809958/84944028-icono-de-l%C3%ADnea-de-vector-de-noticias-global-aislado-sobre-fondo-blanco-icono-de-l%C3%ADnea-de-noticias-gl.jpg"
+                    width="40">
+                    <div class="d-flex flex-column justify-content-start ml-2"><span
+                        class="d-block font-weight-bold name">User</span><span class="date text-black-50">Shared
+                            publicly - @item.Posteo</span></div>
+                </div>
+                <img src="/resources/noticia3.jpg" class="rounded mr-2" alt="..." height="0">
+                <strong class="mr-auto">@item.Titulo</strong>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="toast-body">
+                @item.Descripcion
+            </div>
+        </div>
+    }
+</div>

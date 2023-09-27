@@ -1,0 +1,31 @@
+[
+    {
+        "Id": 1,
+        "Tittulo" : "TOUR VIRTUAL AGROVET MARKET 2021 - SEGUNDA FECHA",
+        "Posteo": "Posteado el Miércoles, 01 septiembre 2021",
+        "Imagen": "/resources/noticia1.jpg",
+        "Descripcion": "El pasado 11 de agosto se dio inicio al TOUR VIRTUAL AGROVET MARKET 2021, capacitaciones virtuales que tienen como objetivo enriquecer los conocimientos de los profesionales especializados al rubro ganadero, manteniéndolos actualizados y conectados de manera virtual con el desarrollo de la profesión."
+    },
+    {
+        "Id": 2,
+        "Tittulo" : "TOUR VIRTUAL AGROVET MARKET 2021",
+        "Posteo": "Posteado el Viernes, 06 agosto 2021",
+        "Imagen": "/resources/noticia2.jpg",
+        "Descripcion": "Agrovet Market, los invita a ser parte del TOUR VIRTUAL AGROVET MARKET 2021 capacitaciones virtuales que tienen como objetivo enriquecer los conocimientos de los profesionales especializados al rubro ganadero, con la finalidad de mantenerlos actualizados y conectados de manera virtual con el desarrollo de la profesión."
+    },
+    {
+        "Id": 3,
+        "Tittulo" : "Una nueva imagen Agrovet MArket, el mismo ADN innovador",
+        "Posteo": "Posteado el Miércoles, 05 mayo 2021",
+        "Imagen": "/resources/noticia3.jpg",
+        "Descripcion": "Hoy, 5 de mayo, motivados por nuestro aniversario número 27, nos emociona presentarle nuestra nueva imagen, la cual refleja la esencia que nos caracteriza: la innovación y pasión por desarrollar nuevas soluciones en pro de la salud y el bienestar animal."
+    },
+    {
+        "Id": 4,
+        "Tittulo" : "Avivet en el XLV Congreso Anual ANECA",
+        "Posteo": "Posteado el Lunes, 26 abril 2021",
+        "Imagen": "/resources/noticia4.jpg",
+        "Descripcion": "La Asociación nacional de especialistas en ciencias avícola de México presenta XLV Congreso Anual ANECA 2021 vía online con la finalidad de incrementar, fomentar y estimular el desarrollo de la avicultura en el mercado mexicano, este evento se llevará a cabo del 27 al 30 de abril del presente año."
+    }
+    
+]

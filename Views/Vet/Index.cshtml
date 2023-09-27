@@ -1,0 +1,83 @@
+@model List<AgroBro.Models.Veterinaria>
+<div class="row">
+  @foreach (var item in Model)
+  {
+    <div class="col-md-4" style="margin-top: 50px;">
+      <div class="card mb-5">
+        <div class="card-header">
+          <button onclick="deleteVet(@item.Id)" type="button" class="m-0 close" data-dismiss="toast" aria-label="Close"/>
+          <span aria-hidden="true">&times;</span>
+        </div>
+        <img src="@item.Image" class="card-img-top" alt="...">
+        <div class="card-body">
+          <strong>
+            <h5 class="card-title">@item.Nombre</h5>
+          </strong>
+          <p class="card-text">@item.Descripcion</p>
+          <a href="/Vet/Details/@item.Id" class="btn btn-outline-info">Ver más...</a>
+          <a href="#" onclick="loadNoticias(@item.Id, event)" class="btn btn-outline-success">Noticias</a>
+          <a href="/Vet/Editar/@item.Id" class="btn btn-outline-info">Editar</a>
+        </div>
+      </div>
+    </div>
+  }
+</div>
+@section Rigth{
+<div class="container">
+  <h2 align="center"><b>Buscar Productos:</b></h2>
+  <h3>Por especie</h3>
+  <div class="list-group" style="margin-bottom: 20px;">
+    <a href="#" class="list-group-item list-group-item-action">Aves de combate</a>
+    <a href="#" class="list-group-item list-group-item-action">Aves de corral</a>
+    <a href="#" class="list-group-item list-group-item-action">Camarones</a>
+    <a href="#" class="list-group-item list-group-item-action">Camélidos</a>
+    <a href="#" class="list-group-item list-group-item-action">Caninos</a>
+    <a href="#" class="list-group-item list-group-item-action">Caprinos</a>
+    <a href="#" class="list-group-item list-group-item-action">Conejos</a>
+    <a href="#" class="list-group-item list-group-item-action">Cuyes</a>
+    <a href="#" class="list-group-item list-group-item-action">Equinos</a>
+    <a href="#" class="list-group-item list-group-item-action">Felinos</a>
+  </div>
+  <h3>Categoría Comercial</h3>
+  <div class="list-group" style="margin-bottom: 20px;">
+    <a href="#" class="list-group-item list-group-item-action">Antibióticos</a>
+    <a href="#" class="list-group-item list-group-item-action">Suplementos Inyectables</a>
+    <a href="#" class="list-group-item list-group-item-action">Antiparasitarios</a>
+    <a href="#" class="list-group-item list-group-item-action">Anabólicos</a>
+    <a href="#" class="list-group-item list-group-item-action">Antiinflamatorios</a>
+    <a href="#" class="list-group-item list-group-item-action">Hormonales</a>
+    <a href="#" class="list-group-item list-group-item-action">Anestésicos</a>
+    <a href="#" class="list-group-item list-group-item-action">Nutricionales</a>
+    <a href="#" class="list-group-item list-group-item-action">Otros</a>
+  </div>
+  <h3>Por División Comercial</h3>
+  <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action">Agrovet</a>
+    <a href="#" class="list-group-item list-group-item-action">Avivet</a>
+    <a href="#" class="list-group-item list-group-item-action">Equestria</a>
+    <a href="#" class="list-group-item list-group-item-action">Nutrovet</a>
+    <a href="#" class="list-group-item list-group-item-action">Petmedica</a>
+  </div>
+</div>
+@await Component.InvokeAsync("Noticias", new {num = 2})
+}
+<div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">¡Hoy en día!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="div_noticias">
+        <div class="spinner-border mx-auto" role="modal-body">
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

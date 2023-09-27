@@ -1,0 +1,40 @@
+@model AgroBro.Models.Veterinaria
+<div class="container">
+    <h3> Noticias Recientes
+    </h3>
+    @foreach (var item in Model.Noticias)
+    {
+        <div class="card" style="margin-bottom: 50px;">
+            <div class="card-body">
+                <h5 class="card-title">@item.Titulo</h5>
+                <p class="card-text">@item.Descripcion</p>
+                <p class="card-text"><small class="text-muted">@item.Posteo</small></p>
+            </div>
+            <img class="card-img-bottom" src="/resources/noticia3.jpg" alt="Card image cap">
+        </div>
+    }
+    <div class="bg-light p-2">
+        <form asp-controller="Noticias" asp-action="Guardar" method="POST">
+            <div class="d-flex flex-row user-info"><img class="rounded-circle" src="https://previews.123rf.com/images/rastudio/rastudio1708/rastudio170809958/84944028-icono-de-l%C3%ADnea-de-vector-de-noticias-global-aislado-sobre-fondo-blanco-icono-de-l%C3%ADnea-de-noticias-gl.jpg"
+                        width="40">
+                    <div class="d-flex flex-column justify-content-start ml-2"><span
+                            class="d-block font-weight-bold name">User</span><span class="date text-black-50">Shared
+                            publicly</span></div>
+                </div>
+            <input type="hidden" name="VeterinariaId" value="@Model.Id" />
+            <div class="d-flex flex-row align-items-start">
+                <input name="Titulo" type="text" class="form-control ml-1 shadow-none textarea" placeholder="Encabezado"/>
+            </div>
+            <div class="d-flex flex-row align-items-start">
+                <textarea placeholder="Descripción" name="Descripcion" class="form-control ml-1 shadow-none textarea">
+
+                            </textarea>
+            </div>
+            <div class="mt-2 text-right">
+                <button class="btn btn-primary btn-sm shadow-none" type="submit">Enviar noticia</button>
+                <button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+</div>

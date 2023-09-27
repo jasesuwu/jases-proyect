@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\css\\form_design.css",
+      "PackagePath": "staticwebassets\\css\\form_design.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\css\\noticia_style.css",
+      "PackagePath": "staticwebassets\\css\\noticia_style.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\css\\welcome.css",
+      "PackagePath": "staticwebassets\\css\\welcome.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\js\\form.js",
+      "PackagePath": "staticwebassets\\js\\form.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\js\\sweetalert.js",
+      "PackagePath": "staticwebassets\\js\\sweetalert.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\flaticon\\backup.txt",
+      "PackagePath": "staticwebassets\\lib\\flaticon\\backup.txt"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\flaticon\\font\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\lib\\flaticon\\font\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\flaticon\\font\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\lib\\flaticon\\font\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\flaticon\\font\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\lib\\flaticon\\font\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\flaticon\\font\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\lib\\flaticon\\font\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\flaticon\\font\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\lib\\flaticon\\font\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\flaticon\\font\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\lib\\flaticon\\font\\_flaticon.scss"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\flaticon\\font\\flaticon.css",
+      "PackagePath": "staticwebassets\\lib\\flaticon\\font\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\flaticon\\font\\flaticon.html",
+      "PackagePath": "staticwebassets\\lib\\flaticon\\font\\flaticon.html"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\flaticon\\license\\license.pdf",
+      "PackagePath": "staticwebassets\\lib\\flaticon\\license\\license.pdf"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\boletin.png",
+      "PackagePath": "staticwebassets\\resources\\boletin.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\carrito.png",
+      "PackagePath": "staticwebassets\\resources\\carrito.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\catalogo.png",
+      "PackagePath": "staticwebassets\\resources\\catalogo.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img.png",
+      "PackagePath": "staticwebassets\\resources\\img.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img10.png",
+      "PackagePath": "staticwebassets\\resources\\img10.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img10det.png",
+      "PackagePath": "staticwebassets\\resources\\img10det.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img11.png",
+      "PackagePath": "staticwebassets\\resources\\img11.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img11det.png",
+      "PackagePath": "staticwebassets\\resources\\img11det.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img12.png",
+      "PackagePath": "staticwebassets\\resources\\img12.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img12det.png",
+      "PackagePath": "staticwebassets\\resources\\img12det.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img2.png",
+      "PackagePath": "staticwebassets\\resources\\img2.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img2det.png",
+      "PackagePath": "staticwebassets\\resources\\img2det.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img3.png",
+      "PackagePath": "staticwebassets\\resources\\img3.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img3det.png",
+      "PackagePath": "staticwebassets\\resources\\img3det.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img4.png",
+      "PackagePath": "staticwebassets\\resources\\img4.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img4det.png",
+      "PackagePath": "staticwebassets\\resources\\img4det.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img5.png",
+      "PackagePath": "staticwebassets\\resources\\img5.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img5det.png",
+      "PackagePath": "staticwebassets\\resources\\img5det.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img6.png",
+      "PackagePath": "staticwebassets\\resources\\img6.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img6det.png",
+      "PackagePath": "staticwebassets\\resources\\img6det.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img7.png",
+      "PackagePath": "staticwebassets\\resources\\img7.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img7det.png",
+      "PackagePath": "staticwebassets\\resources\\img7det.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img8.png",
+      "PackagePath": "staticwebassets\\resources\\img8.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img8det.png",
+      "PackagePath": "staticwebassets\\resources\\img8det.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img9.png",
+      "PackagePath": "staticwebassets\\resources\\img9.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\img9det.png",
+      "PackagePath": "staticwebassets\\resources\\img9det.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\imgdet.png",
+      "PackagePath": "staticwebassets\\resources\\imgdet.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\logo.png",
+      "PackagePath": "staticwebassets\\resources\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\notfound.png",
+      "PackagePath": "staticwebassets\\resources\\notfound.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\noticia1.jpg",
+      "PackagePath": "staticwebassets\\resources\\noticia1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\noticia2.jpg",
+      "PackagePath": "staticwebassets\\resources\\noticia2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\noticia3.jpg",
+      "PackagePath": "staticwebassets\\resources\\noticia3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\noticia4.jpg",
+      "PackagePath": "staticwebassets\\resources\\noticia4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\noticias.png",
+      "PackagePath": "staticwebassets\\resources\\noticias.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\oficinas.png",
+      "PackagePath": "staticwebassets\\resources\\oficinas.png"
+    },
+    {
+      "Id": "C:\\Users\\yaret\\Downloads\\AgroBro\\AgroBro\\wwwroot\\resources\\seguir.png",
+      "PackagePath": "staticwebassets\\resources\\seguir.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AgroBro.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.AgroBro.props",
+      "PackagePath": "build\\AgroBro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.AgroBro.props",
+      "PackagePath": "buildMultiTargeting\\AgroBro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.AgroBro.props",
+      "PackagePath": "buildTransitive\\AgroBro.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,90 @@
+@model AgroBro.Models.Veterinaria
+@section styles{
+    <link rel="stylesheet" href="noticia_style.css" type="text/css">
+}
+<div class="row" >
+    <h1 style="margin-left: 45%;">@Model.Nombre</h1>
+    <br><br><br>
+</div>
+<div class="row" >
+  <img style="margin-left: 40%;" src="@Model.ImageDetail" class="imagen" alt="...">
+</div>
+@section Rigth{
+ <div class="col-md-14">
+      <div class="card-body">
+        <p class="card-text">@Model.Descripcion</p>
+        <p class="card-text"><small class="text-muted">Aplicable a: @Model.Aplicabilidad - @Model.Modo</small></p>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Formulación
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            @Model.Formulacion
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Indicaciones
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            @Model.Indicaciones
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Dosis y Administración
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            @Model.DosisAdm
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Presentación Comercial
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            @Model.Presentacion
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <a href="/Vet" class="btn btn-outline-dark" style="margin-top: 12px;">Regresar</a>
+      </div>
+      
+    </div>
+}
+@section Footer{
+    @Html.Partial("Noticias", Model)
+}
